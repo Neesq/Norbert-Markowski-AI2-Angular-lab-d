@@ -1,0 +1,18 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "deadline": "1900-01-01",
+      "completed": true,
+      "archived": true
+    },
+    {
+      "title": "Dodaje nowy task",
+      "deadline": "2023-12-12",
+      "completed": false,
+      "archived": false,
+      "id": 5
+    }
+  ]
+}
