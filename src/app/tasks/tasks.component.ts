@@ -22,6 +22,10 @@ export class TasksComponent implements OnInit {
     this.isProcessing = false;
   }
 
+  canAddTask() {
+    return this.newTask.title !== undefined;
+  }
+
   addTask(): void {
     if (this.newTask.title === undefined) return;
     this.isProcessing = true;
@@ -43,6 +47,10 @@ export class TasksComponent implements OnInit {
         this.ngOnInit();
       },
     });
+  }
+
+  canArchiveCompleted() {
+    return this.tasks.filter((task) => task.completed).length > 0;
   }
 
   archiveCompleted() {

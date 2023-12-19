@@ -10,9 +10,23 @@
     {
       "title": "Dodaje nowy task",
       "deadline": "2023-12-12",
+      "completed": true,
+      "archived": true,
+      "id": 5
+    },
+    {
+      "title": "task ukończony",
+      "deadline": "2023-12-19",
+      "completed": true,
+      "archived": true,
+      "id": 6
+    },
+    {
+      "title": "task123",
+      "deadline": "2023-12-14",
       "completed": false,
       "archived": false,
-      "id": 5
+      "id": 7
     }
   ]
 }
